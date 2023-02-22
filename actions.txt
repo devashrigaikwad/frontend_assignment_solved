@@ -1,0 +1,6 @@
+1. Run npm install
+2. Run npm start
+2a. if you are getting NODE_ENV is not recognized, then run
+npm install -g win-node-env
+3. updated serve.js process.env.PWD || process.cwd() (this is done to work on windows environment)
+4. comment and uncomment the environment file  as required.
